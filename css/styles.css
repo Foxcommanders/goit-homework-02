@@ -3,6 +3,7 @@
     --accent-color: #4D5AE5;
     --title-color: #2E2F42;
     --text-color: #434455;
+    --hover-color: #404bbf;
     --primary-color: #2E2F42;
     --secondary-color: #F4F4FD;
     --background-color: #ffffff;
@@ -87,7 +88,7 @@ body {
 }
 
 .menu-link:hover, .menu-link:focus{
-    color: #404bbf;
+    color: var(--hover-color);
 }
 
 .contact{
@@ -100,7 +101,7 @@ body {
 
 .contact:hover,
 .contact:focus {
-    color: #404bbf;
+    color: var(--hover-color);
 }
 
 .hero{
@@ -127,7 +128,7 @@ body {
 
 .hero-btn:hover,
 .hero-btn:focus {
-    background-color: #404bbf;
+    background-color: var(--hover-color);
 }
 
 .feature-title{
@@ -202,7 +203,7 @@ font-weight: 700;
 .portfolio-btn:hover,
 .portfolio-btn:focus {
     color: var(--main-color);
-    background-color: #404bbf;
+    background-color: var(--hover-color);
 }
 
 .portfolio-title{
