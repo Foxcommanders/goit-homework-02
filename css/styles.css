@@ -103,6 +103,28 @@ text-decoration: none;
     color: #404bbf;
 }
 
+.hero{
+    background-color: var(--primary-color);
+}
+
+.hero-title{
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: var(--hero-color);
+}
+
+.hero-btn{
+     background-color: var(--accent-color);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    color: #404bbf;
+}
+
 .footer{
     background-color: var(--primary-color) ;
 }
