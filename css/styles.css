@@ -4,8 +4,8 @@
     --title-color: #2E2F42;
     --text-color: #434455;
     --primary-color: #2E2F42;
-    --secondary-color: #ffffff;
-    --background-color:#F4F4FD;
+    --secondary-color: #F4F4FD;
+    --background-color: #ffffff;
 }
 
 ul {
@@ -46,4 +46,6 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 500;
+    color: var(--text-color);
+    background-color: var(--background-color);
 }
