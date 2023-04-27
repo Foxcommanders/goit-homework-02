@@ -68,6 +68,10 @@ text-decoration: none;
     color: var(--title-color);
 }
 
+.logo-text2 {
+    color: var(--secondary-color);
+}
+
 .list{
     list-style: none
 }
@@ -82,4 +86,8 @@ text-decoration: none;
 
 .nav-link:hover, .nav-link:focus{
     color: #404bbf;
+}
+
+.footer{
+    background-color: var(--primary-color) ;
 }
