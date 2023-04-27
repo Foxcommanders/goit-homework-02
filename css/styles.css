@@ -1,0 +1,49 @@
+:root {
+    --accent-color: #4D5AE5;
+    --hero-color:#ffffff;
+    --title-color: #2E2F42;
+    --text-color: #434455;
+    --primary-color: #2E2F42;
+    --secondary-color: #ffffff;
+    --background-color:#F4F4FD;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+button {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    font: inherit;
+    cursor: pointer;
+}
+
+address {
+    font-style: normal;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
