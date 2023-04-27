@@ -1,6 +1,6 @@
 :root {
+    --main-color:#ffffff;
     --accent-color: #4D5AE5;
-    --hero-color:#ffffff;
     --title-color: #2E2F42;
     --text-color: #434455;
     --primary-color: #2E2F42;
@@ -113,16 +113,21 @@ text-decoration: none;
         line-height: 1.07;
         text-align: center;
         letter-spacing: 0.02em;
-        color: var(--hero-color);
+        color: var(--main-color);
 }
 
 .hero-btn{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--main-color);
      background-color: var(--accent-color);
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-    color: #404bbf;
+    background-color: #404bbf;
 }
 
 .footer{
