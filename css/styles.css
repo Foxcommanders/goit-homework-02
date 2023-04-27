@@ -50,7 +50,13 @@ body {
     background-color: var(--background-color);
 }
 
+.list {
+    list-style: none;
+}
 
+.link {
+    text-decoration: none;
+}
 
 .logo{
     font-family: 'Raleway', sans-serif;
@@ -62,10 +68,6 @@ body {
         color: var(--accent-color);
 }
 
-.link{
-text-decoration: none;
-}
-
 .logo-text{
     color: var(--title-color);
 }
@@ -74,9 +76,7 @@ text-decoration: none;
     color: var(--secondary-color);
 }
 
-.list{
-    list-style: none;
-}
+
 
 .menu-link {
     font-weight: 500;
@@ -154,6 +154,40 @@ text-decoration: none;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--title-color);
+}
+
+.team{
+    background-color: var(--secondary-color);
+}
+
+.team-title{
+font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--title-color);
+}
+
+.team-list{
+    background-color: var(--background-color);
+}
+
+.team-title-name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+}
+
+.team-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
 }
 
 .footer{
